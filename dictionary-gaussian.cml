@@ -37,7 +37,7 @@
     <cmlx:enumeration value="bandgap" id="bandgap" cmlx:name="bandgap" />
     <cmlx:enumeration value="lowdin" id="lowdin" cmlx:name="lowdin" />
   </entry>
-  <entry id="allproperties,maxitdiag" cmlx:name="allproperties,maxitdiag"  cmlx:type="xsd:string" cmlx:definition="needs a definition"
+  <entry id="allproperties.maxitdiag" cmlx:name="allproperties,maxitdiag"  cmlx:type="xsd:string" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="parameter"> 
     <cmlx:enumeration value="100)/cc-pvdz" id="100)/cc-pvdz" cmlx:name="100)/cc-pvdz" />
   </entry>
@@ -187,10 +187,10 @@
     <cmlx:enumeration value="df,p" id="df_p" cmlx:name="df,p" />
     <cmlx:enumeration value="df,pd" id="df_pd" cmlx:name="df,pd" />
   </entry>
-  <entry id="bd(t)value" cmlx:name="bd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="bd_t_value" cmlx:name="bd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
-  <entry id="bd(tq)value" cmlx:name="bd(tq)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="bd_tq_value" cmlx:name="bd(tq)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
   <entry id="bdrefvalue" cmlx:name="bdrefvalue"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
@@ -259,7 +259,7 @@
   <entry id="ccsd" cmlx:name="ccsd"  cmlx:type="xsd:string" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="misc">
   </entry>
-  <entry id="ccsd(t)value" cmlx:name="ccsd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="ccsd_t_value" cmlx:name="ccsd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
   <entry id="ccsdvalue" cmlx:name="ccsdvalue"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
@@ -378,7 +378,7 @@ Units are not specified, we guess they are ???
   <entry id="dqpolderivvalue" cmlx:name="dqpolderivvalue"  cmlx:type="xsd:float" minLength="3" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
-  <entry id="e2(cbs)value" cmlx:name="e2(cbs)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="e2_cbs_value" cmlx:name="e2(cbs)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
   <entry id="emass" cmlx:name="emass"  cmlx:type="xsd:integer" cmlx:definition="needs a definition"
@@ -977,10 +977,10 @@ The second derivatives of the energy are to be computed analytically  </h:p>
   <entry id="qcisd" cmlx:name="qcisd"  cmlx:type="xsd:string" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="misc">
   </entry>
-  <entry id="qcisd(t)value" cmlx:name="qcisd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="qcisd_t_value" cmlx:name="qcisd(t)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
-  <entry id="qcisd(tq)value" cmlx:name="qcisd(tq)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
+  <entry id="qcisd_tq_value" cmlx:name="qcisd(tq)value"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
  cmlx:description="needs a description" cmlx:superclass="property">
   </entry>
   <entry id="qcisdvalue" cmlx:name="qcisdvalue"  cmlx:type="xsd:float" minLength="1" cmlx:definition="needs a definition"
